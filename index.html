@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta property="og:title" content="Boilerplate">
+    <meta property="og:image" content="http://intelui.com/img/intelui-og-cover.png">
+    <meta property="og:image:secure_url" content="https://intelui.com/img/intelui-og-cover.png">
+    <meta property="og:image:width" content="815">
+    <meta property="og:image:height" content="351">
+    <meta property="og:description" content="Web design and development boilerplate">
+    <meta property="og:url" content="https://localhost">
+    <meta property="article:publisher" content="https://www.facebook.com/intelui">
+    <meta property="fb:profile_id" content="https://www.facebook.com/intelui">
+    <meta name="keywords" content="front-end, development">
+    <title>Boilerplate</title>
+    <script src="./js/vendor/jquery.min.js"></script>
+    <script src="./js/vendor/bootstrap.min.js"></script>
+    <script src="./js/vendor/owl.carousel.min.js"></script>
+    <script src="./js/all.js"></script>
+    <link rel="stylesheet" href="./css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/vendor/owl.carousel.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+<section class="header">
+    <div class="header-carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators carousel-indicators-numbers">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">01</li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1">02</li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2">03</li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/header-slide-photo-1.jpg" alt="First slide">
+                    <div class="carousel-caption">
+                        <h1>digital</h1>
+                        <h1>creative <span class="carousel-text-green">agency</span></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur excepturi facilis iure
+                            omnis saepe velit!</p>
+                        <div class="carousel-caption-buttons">
+                            <a href="">
+                                <button class="btn btn-primary">start now</button>
+                            </a>
+                            <a href="">
+                                <button class="btn btn-secondary">buy now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/header-slide-photo-2.jpg" alt="Second slide">
+                    <div class="carousel-caption">
+                        <h1>digital</h1>
+                        <h1>creative <span class="carousel-text-blue">agency</span></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur excepturi facilis iure
+                            omnis saepe velit!</p>
+                        <div class="carousel-caption-buttons">
+                            <a href="">
+                                <button class="btn btn-primary">start now</button>
+                            </a>
+                            <a href="">
+                                <button class="btn btn-secondary">buy now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/header-slide-photo-3.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h1>digital</h1>
+                        <h1>creative <span class="carousel-text-red">agency</span></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur excepturi facilis iure
+                            omnis saepe velit!</p>
+                        <div class="carousel-caption-buttons">
+                            <a href="">
+                                <button class="btn btn-primary">start now</button>
+                            </a>
+                            <a href="">
+                                <button class="btn btn-secondary">buy now</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg" id="siteNav">
+        <a class="navbar-brand"><img src="./img/riwa-logo.png"></a>
+        <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"
+             aria-controls="navbarNav"
+             aria-expanded="false"
+             aria-label="Toggle navigation">
+            <div class="toggle">
+                <div class="bar"></div>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="..">home</a></li>
+                <li class="nav-item"><a class="nav-link" href="..">about</a></li>
+                <li class="nav-item"><a class="nav-link" href="..">services</a></li>
+                <li class="nav-item"><a class="nav-link" href="..">portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="..">news</a></li>
+                <li class="nav-item"><a class="nav-link" href="..">contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--<nav class="navbar p-0">
+        <div class="container-fluid">
+            <div class="brand-logo">
+                <a href=""><img src="./img/riwa-logo.png" alt=""></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav list-unstyled list-inline m-0">
+                    <li class="nav-item active list-inline-item"><a class="nav-link" href="">home</a></li>
+                    <li class="nav-item list-inline-item"><a class="nav-link" href="">about</a></li>
+                    <li class="nav-item list-inline-item"><a class="nav-link" href="">services</a></li>
+                    <li class="nav-item list-inline-item"><a class="nav-link" href="">portfolio</a></li>
+                    <li class="nav-item list-inline-item"><a class="nav-link" href="">news</a></li>
+                    <li class="nav-item list-inline-item"><a class="nav-link" href="">contact us</a></li>
+                </ul>
+            </div>
+            <div class="slide-menu-button">
+                <a href=""><i class="fas fa-bars"></i></a>
+            </div>
+        </div>
+    </nav>-->
+</section>
+<section class="hard-working-team">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="hard-working-team-left d-flex flex-row justify-content-between align-items-center">
+                    <div class="vertical-text">who we are</div>
+                    <div class="big-text">
+                        <h2>A <span>Professional</span> <br>& Hard Working Team
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.</p>
+                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+                    essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+                    containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+                    PageMaker including versions of Lorem Ipsum</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="hard-working-team-image-section d-flex justify-content-center">
+                    <img src="./img/hard-working-team-photo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="branding-marketing">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-4 p-3">
+                <div class="branding text-center">
+                    <i class="fas fa-bicycle"></i>
+                    <h4>Branding</h4>
+                    <div class="branding-line"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis distinctio explicabo facere
+                        nam nesciunt placeat rem temporibus ullam velit.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 p-3">
+                <div class="marketing text-center">
+                    <i class="fas fa-plane"></i>
+                    <h4>Marketing</h4>
+                    <div class="marketing-line"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis distinctio explicabo facere
+                        nam nesciunt placeat rem temporibus ullam velit.</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 p-3">
+                <div class="presentation text-center">
+                    <i class="fas fa-chart-bar"></i>
+                    <h4>Presentation</h4>
+                    <div class="presentation-line"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis distinctio explicabo facere
+                        nam nesciunt placeat rem temporibus ullam velit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="talented-team">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="talented-team-header">
+                    <div class="talented-team-header-text d-flex flex-row align-items-center">
+                        <div class="vertical-text">who we are</div>
+                        <div class="big-text">
+                            <h2>Meet Our <br><span>Talented</span> Team
+                            </h2>
+                        </div>
+                    </div>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, error, praesentium. Est
+                        exercitationem, sapiente. Aut cum doloremque eos esse incidunt itaque iure mollitia, pariatur
+                        placeat quaerat quidem tempora tempore totam!</p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="talented-team-carousel">
+                    <div class="owl-carousel owl-theme" id="talentedTeamOwl">
+                        <div class="item"><img src="./img/team-member-1.jpg" alt=""></div>
+                        <div class="item"><img src="./img/team-member-2.jpg" alt=""></div>
+                        <div class="item"><img src="./img/team-member-1.jpg" alt=""></div>
+                        <div class="item"><img src="./img/team-member-2.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="development-progress">
+                    <h3>Development</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                             aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-indicator"><span>90%</span><i class="fas fa-caret-down"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="adobe-progress">
+                    <h3>Adobe Photoshop</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 96%" aria-valuenow="90"
+                             aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-indicator"><span>96%</span><i class="fas fa-caret-down"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="marketing-progress">
+                    <h3>Marketing</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="90"
+                             aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-indicator"><span>70%</span><i class="fas fa-caret-down"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="html-progress">
+                    <h3>Html/WordPress</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 84%" aria-valuenow="90"
+                             aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-indicator"><span>84%</span><i class="fas fa-caret-down"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="feedback text-center">
+    <div class="container-fluid">
+        <h2>
+            <i class="fas fa-quote-left"></i>Creativity is allowing yourself to make mistakes <br>
+            Art is knowing which ones to keep <i class="fas fa-quote-right"></i>
+        </h2>
+        <p>
+            - Alice Johnson -
+        </p>
+    </div>
+
+</section>
+<section class="our-services">
+    <div class="container">
+        <div class="our-services-header text-center">
+            <p>what we do</p>
+            <h4>Our Services</h4>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-7">
+                <div class="our-services-left">
+                    <img src="./img/lamp-laptop.png" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-sm-5">
+                <div class="our-services-right">
+                    <div class="our-service-feature d-flex">
+                        <div class="our-service-feature-icon"><i class="far fa-clock"></i></div>
+                        <div class="our-service-feature-text">
+                            <h6>feature 01</h6>
+                            <h5>Online Live Support</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda
+                                consectetur consequatur corporis est hic, officiis placeat saepe? Ducimus, qui.</p>
+                        </div>
+                    </div>
+                    <div class="our-service-feature d-flex">
+                        <div class="our-service-feature-icon"><i class="fas fa-home"></i></div>
+                        <div class="our-service-feature-text">
+                            <h6>feature 01</h6>
+                            <h5>Online Live Support</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda
+                                consectetur consequatur corporis est hic, officiis placeat saepe? Ducimus, qui.</p>
+                        </div>
+                    </div>
+                    <div class="our-service-feature d-flex">
+                        <div class="our-service-feature-icon"><i class="far fa-clock"></i></div>
+                        <div class="our-service-feature-text">
+                            <h6>feature 01</h6>
+                            <h5>Online Live Support</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur assumenda
+                                consectetur consequatur corporis est hic, officiis placeat saepe? Ducimus, qui.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="web-design">
+    <div class="container">
+        <div class="web-design-header text-center">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item"><a href=""><span>web design</span></a></li>
+                <li class="list-inline-item"><a href="">print media</a></li>
+                <li class="list-inline-item"><a href="">artist</a></li>
+                <li class="list-inline-item"><a href="">digital group</a></li>
+            </ul>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-6">
+                <div class="web-design-left">
+                    <img src="./img/pineapple.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="web-design-right">
+                    <h2>01</h2>
+                    <h3>Your Technical Partner Towards Web Success.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti inventore quae rerum. Ab atque
+                        commodi
+                        neque non reprehenderit repudiandae veniam. Aspernatur atque dolores et ipsum modi nostrum rem
+                        sunt
+                        vitae.</p>
+                    <a href="">
+                        <button class="btn-primary">get in touch</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="fun-facts">
+    <div class="container">
+        <div class="fun-facts-header d-flex flex-row align-items-center">
+            <div class="vertical-text">fun facts</div>
+            <div class="big-text">
+                <h2>We Expect<br><span>Excellence</span> Services
+                </h2>
+            </div>
+        </div>
+        <div class="fun-facts-footer">
+            <div class="row">
+                <div class="col-6 col-sm-3">
+                    <div class="fun-facts-footer-first-section">
+                        <i class="fas fa-users"></i>
+                        <h3>125</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <div class="fun-facts-footer-second-section">
+                        <i class="fab fa-codepen"></i>
+                        <h3>9102</h3>
+                        <p>Lines of Codes</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <div class="fun-facts-footer-third-section">
+                        <i class="fas fa-trophy"></i>
+                        <h3>06</h3>
+                        <p>Awards Received</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3">
+                    <div class="fun-facts-footer-fourth-section">
+                        <i class="far fa-chart-bar"></i>
+                        <h3>06</h3>
+                        <p>Awards Received</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="amazing-portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="amazing-portfolio-header d-flex flex-row align-items-center">
+                            <div class="vertical-text">find out work</div>
+                            <div class="big-text">
+                                <h2>Our<br><span>Amazing</span> Portfolio
+                                </h2>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item"><a href=""><span>all</span></a></li>
+                            <li class="list-inline-item"><a href="">logo design</a></li>
+                            <li class="list-inline-item"><a href="">web</a></li>
+                            <li class="list-inline-item"><a href="">mobile design</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <img src="./img/amazing-portfolio-watch.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="./img/amazing-portfolio-plant.jpg" alt="">
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <div class="amazing-portfolio-stats">
+                                    <p>We've Completed More Then</p>
+                                    <h1>530</h1>
+                                    <p>Projects for Our amazing Clients</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="amazing-portfolio-button">
+                                    <a href="">
+                                        <button class="btn btn-primary">load more...</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="our-word">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-5">
+                <div class="our-word-header d-flex flex-row align-items-center">
+                    <div class="vertical-text">who we are</div>
+                    <div class="big-text">
+                        <h2>Don't Take<br><span>Our Word</span> for it
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-7">
+                <div class="our-word-quality-support">
+                    <div class="owl-carousel owl-theme" id="qualitySupportOwl">
+                        <div class="item">
+                            <div class="quality-support-header d-flex flex-row justify-content-between align-items-center">
+                                <h3>Quality Support</h3>
+                                <div class="stars">
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto debitis delectus
+                                dicta,
+                                dignissimos dolorem dolorum facere id illum libero magnam mollitia nam natus obcaecati
+                                placeat
+                                possimus repudiandae totam vel voluptatem.</p>
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="quality-support-customer-img">
+                                        <img src="./img/quality-support-image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <div class="quality-support-customer-name">
+                                        <p>Joq Martin</p>
+                                        <p>Senior Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="quality-support-header d-flex flex-row justify-content-between align-items-center">
+                                <h3>Quality Support</h3>
+                                <div class="stars">
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto debitis delectus
+                                dicta,
+                                dignissimos dolorem dolorum facere id illum libero magnam mollitia nam natus obcaecati
+                                placeat
+                                possimus repudiandae totam vel voluptatem.</p>
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="quality-support-customer-img">
+                                        <img src="./img/quality-support-image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <div class="quality-support-customer-name">
+                                        <p>Joq Martin</p>
+                                        <p>Senior Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="quality-support-header d-flex flex-row justify-content-between align-items-center">
+                                <h3>Quality Support</h3>
+                                <div class="stars">
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                    <a href=""><i class="fas fa-star"></i></a>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto debitis delectus
+                                dicta,
+                                dignissimos dolorem dolorum facere id illum libero magnam mollitia nam natus obcaecati
+                                placeat
+                                possimus repudiandae totam vel voluptatem.</p>
+                            <div class="row">
+                                <div class="col-3 col-sm-2">
+                                    <div class="quality-support-customer-img">
+                                        <img src="./img/quality-support-image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-9 col-sm-10">
+                                    <div class="quality-support-customer-name">
+                                        <p>Joq Martin</p>
+                                        <p>Senior Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="our-pricing">
+    <div class="container">
+        <h6>lovely customers</h6>
+        <h2>Our Pricing</h2>
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <div class="basic">
+                    <h5>Basic</h5>
+                    <div class="basic-price">
+                        <div class="row">
+                            <div class="col-4">
+                                <h2>
+                                    <span class="dollar">$</span>
+                                    20
+                                    <br>
+                                    <span class="month">Month</span>
+                                </h2>
+                            </div>
+                            <div class="col-8">
+                                <p>It has survived not only five centuries, but also the leap into electronic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled packages">
+                        <li>
+                            <i class="fas fa-check"></i> Full access
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> Unlimited Bandwidth
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> Powerful Admin Panel
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> Email Accounts
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> 8 Free Forks Every Months
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary basic-button">get started</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="unlimited">
+                    <h5>Unlimited</h5>
+                    <div class="unlimited-price">
+                        <div class="row">
+                            <div class="col-4">
+                                <h2>
+                                    <span class="dollar">$</span>
+                                    35
+                                    <br>
+                                    <span class="month">Month</span>
+                                </h2>
+                            </div>
+                            <div class="col-8">
+                                <p>It has survived not only five centuries, but also the leap into electronic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled packages">
+                        <li>
+                            <i class="fas fa-check"></i> Full access
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> Unlimited Bandwidth
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> Powerful Admin Panel
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> Email Accounts
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> 8 Free Forks Every Months
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary unlimited-button">get started</button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="professional">
+                    <h5>Professional</h5>
+                    <div class="professional-price">
+                        <div class="row">
+                            <div class="col-4">
+                                <h2>
+                                    <span class="dollar">$</span>
+                                    58
+                                    <br>
+                                    <span class="month">Month</span>
+                                </h2>
+                            </div>
+                            <div class="col-8">
+                                <p>It has survived not only five centuries, but also the leap into electronic.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled packages">
+                        <li>
+                            <i class="fas fa-check"></i> Full access
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> Unlimited Bandwidth
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> Powerful Admin Panel
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> Email Accounts
+                        </li>
+                        <li>
+                            <i class="fas fa-check"></i> 8 Free Forks Every Months
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary professional-button">get started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-5">
+                <div class="blog-left-side">
+                    <div class="blog-left-side-text d-flex flex-row align-items-center">
+                        <div class="vertical-text">who we are</div>
+                        <div class="big-text">
+                            <h2>From <br>The <span>Blog</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dignissimos dolore ducimus
+                        explicabo iure laudantium, numquam placeat sint sunt vero.</p>
+                    <a href="">
+                        <button class="btn btn-primary">view all posts</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-sm-7">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="blog-right-side">
+                            <h4>Standard Post Fullwidth</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur commodi
+                                debitis fuga perferendis sit.</p>
+                            <a href="">read more ></a>
+                            <div class="blog-right-side-line"></div>
+                            <div class="blog-right-side-footer">
+                                <div class="blog-right-side-footer-image-name">
+                                    <span class="image"><img src="./img/blog-user.png" alt=""></span>
+                                    <span class="name">John Smith</span>
+                                </div>
+                                <div class="blog-right-side-footer-date">
+                                    <p>November 27,2016</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="blog-right-side">
+                            <h4>Standard Post Fullwidth</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur commodi
+                                debitis fuga perferendis sit.</p>
+                            <a href="">read more ></a>
+                            <div class="blog-right-side-line"></div>
+                            <div class="blog-right-side-footer">
+                                <div class="blog-right-side-footer-image-name">
+                                    <span class="image"><img src="./img/blog-user.png" alt=""></span>
+                                    <span class="name">John Smith</span>
+                                </div>
+                                <div class="blog-right-side-footer-date">
+                                    <p>November 27,2016</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="social-group">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-6">
+                <div class="social-group-left-side">
+                    <a href="">
+                        <img src="./img/insta-pic-first.jpg" alt="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="social-group-facebook text-center">
+                        <a href="">
+                            <div class="social-group-facebook-header">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <span>@newsitedesign</span>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at culpa
+                                excepturi
+                                facere
+                                ut. Reiciendis?</p>
+                            <button class="btn btn-primary">10k likes</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="social-group-right-side h-100">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="social-group-twitter text-center">
+                                <a href="">
+                                    <div class="social-group-twitter-header">
+                                        <span><i class="fab fa-twitter"></i></span>
+                                        <span>@newsitedesign</span>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ea eius illum
+                                        in iste
+                                        iure mollitia nesciunt rem ut vel.</p>
+                                    <button class="btn btn-primary">35k followers</button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 order-first order-sm-10">
+                            <div class="row no-gutters">
+                                <div class="col-12 col-sm-6">
+                                    <a href="">
+                                        <div><img src="./img/insta-pic-second.jpg"
+                                                  alt=""></div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <a href="">
+                                        <div>
+                                            <img src="./img/insta-pic-third.jpg" alt="">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="get-in-touch">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="get-in-touch-left-side">
+                    <div class="get-in-touch-left-side-text d-flex flex-row align-items-center">
+                        <div class="vertical-text">who we are</div>
+                        <div class="big-text">
+                            <h2>Get <br>In <span>Touch</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dignissimos dolore ducimus
+                        explicabo iure laudantium, numquam placeat sint sunt vero.</p>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="addresses">
+                                <h5>United States</h5>
+                                <div class="phone">
+                                    <a href="tel:+(34) 609 33 17 54" class="d-flex w-100">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <p>+(34) 609 33 17 54</p>
+                                    </a>
+                                </div>
+                                <div class="mail">
+                                    <a href="mailto:support@riwa.com" class="d-flex w-100">
+                                        <i class="fas fa-envelope"></i>
+                                        <p>support@riwa.com</p>
+                                    </a>
+                                </div>
+                                <div class="address">
+                                    <a href="" class="d-flex w-100">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <address>
+                                            201 Oak Street Building 27
+                                            <br>
+                                            Manchester, USA
+                                        </address>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="addresses">
+                                <h5>Australia</h5>
+                                <div class="phone">
+                                    <a href="tel:+(34) 609 33 17 54" class="d-flex w-100">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <p>+(34) 609 33 17 54</p>
+                                    </a>
+                                </div>
+                                <div class="mail">
+                                    <a href="mailto:support@riwa.com" class="d-flex w-100">
+                                        <i class="fas fa-envelope"></i>
+                                        <p>support@riwa.com</p>
+                                    </a>
+                                </div>
+                                <div class="address">
+                                    <a href="" class="d-flex w-100">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <address>
+                                            201 Oak Street Building 27
+                                            <br>
+                                            Manchester, USA
+                                        </address>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="get-in-touch-right-side">
+                    <h4>Leave Message</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, vitae.</p>
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Your Name" name="name">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="Email Address" name="email">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" type="phone" placeholder="Phone No." name="phone">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Subject" name="subject">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" placeholder="Message" name="message" id="" cols="30"
+                                      rows="10"></textarea>
+                        </div>
+                    </div>
+                    <a href="">
+                        <button type="submit" class="btn btn-primary">submit</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="google-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2867.6402201130404!2d-71.45411742542736!3d43.00426918992963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e24f3ffa099db5%3A0xe7687eff5fd20687!2s201+Oak+St+Building+27%2C+Manchester%2C+NH+03104%2C+%D0%A1%D0%A8%D0%90!5e0!3m2!1sru!2s!4v1548161951651"
+            width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+<section class="copyright">
+    <p>Copyright © 2017 Riwa All rights reserved. by <span>Themesindustry</span></p>
+</section>
+
+
+<script>
+    $('#talentedTeamOwl').owlCarousel({
+        loop: true,
+        margin: 5,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            1000: {
+                items: 2
+            }
+        }
+    })
+    $('#qualitySupportOwl').owlCarousel({
+        loop: true,
+        margin: 15,
+        items: 1,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+        }
+    })
+</script>
+</body>
+</html>
